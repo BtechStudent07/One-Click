@@ -1,0 +1,172 @@
+body{
+    background-repeat: no-repeat;
+    font-family: Poppins;
+}
+
+
+h2{
+    font-size: 28px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#navbar{
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 0px 0px 0px 15px;
+    background-color: #f1f1f1;
+}
+
+#navbar ul{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+}
+
+#navbar ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+input[type=search]{
+    border: none;
+    padding: 15px;
+    display: inline-block;
+    height: 30px;
+    width: 400px;
+}
+
+.dropbtn {
+    color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    font-size: 17px;
+    padding: 6px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main{
+    margin: 0px 65px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(59, 59, 59);
+}
+
+h3{
+    margin: 40px 0px;
+    font-size: 35px;
+}
+
+h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+h3 a:hover{
+    color: #ababab;
+    text-decoration: underline;
+}
+
+.main img{
+    padding: 25px;
+    height: 450px;
+    width: 300px;
+    object-fit: fill;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+
+.info p{
+    margin: 15px;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.details{
+    margin-left: 75px;
+}
+
+.details h3{
+    margin: 0;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.details p{
+    margin: 0;
+    margin-left: 5px;
+}
+
+.screenshot img{
+    width: 1200px;
+    height: auto;
+    padding: 20px 40px;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.download p{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.download a{
+    display: inline;
+    width: 15%;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background-color: rgb(23, 129, 228);
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 15px;
+    margin: 40px 0;
+    width: 100%;
+}
+
+button:hover{
+    background-color:rgb(18, 112, 201);
+    color: rgb(240, 229, 214);
+}
