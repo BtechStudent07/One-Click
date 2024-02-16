@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgba(16, 16, 16, 0.638);
+            background-repeat: no-repeat;
+            font-family: Poppins;
+        }
+        
+        #navbar{
+            display: flex;
+            margin: auto;
+            margin-bottom: 50px;
+            padding: 0px 0px 0px 15px;
+            background-color: #f1f1f1;
+        }
+        
+        h2{
+            font-size: 28px;
+            margin: 0;
+            margin-top: 10px;
+        }
+        
+        ul{
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            margin-left: 600px;
+            list-style: none;
+        }
+        
+        ul li a{
+            margin: 0px 20px;
+            text-decoration: none;
+            color: rgb(99, 99, 99);
+        }
+        
+        ul li a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        
+        input[type=search]{
+            border: none;
+            padding: 15px;
+            display: inline-block;
+            height: 30px;
+            width: 400px;
+        }
+        
+        p{
+            font-size: 16px;
+        }
+        
+        h3{
+            margin: 10px;
+            font-size: 25px;
+        }
+        
+        h3 a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        h3 a:hover{
+            color: #ababab;
+            text-decoration: underline;
+        }
+        
+        
+        
+        .dropbtn {
+            color: black;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+          
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+          
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+        }
+          
+        .dropdown-content a {
+            font-size: 17px;
+            padding: 6px;
+            text-decoration: none;
+            display: block;
+        }
+          
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        #contact{
+            color: aliceblue;
+            font-size: 27px;
+        }
+        #name{
+            margin-left: 40%;
+            margin-right: 40%;
+            background-color: black;
+        font-size: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #e6e0e0;
+        margin-bottom: 15px;
+        }
+        #sub{
+            background-color: #ababab;
+            margin-right: 35%;
+            margin-left: 30%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 23px;
+            margin-top: 53px;
+        }
+        label{
+            font-size: 26px;
+            
+        }
+        input{
+            border-radius: 3px;
+            border-top: none;
+            border-left: none;
+            height: 27px;
+            width:20rem;
+            border-right: 2px solid black;
+            border-bottom: 2px solid black;
+            font-size: 18px;
+        }
+        select{
+            height: 27px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <h2>One Click</h2>
+        <ul>
+            <li><input type="search" placeholder="search here" id="dhundo"></li>
+            <li><a href="#">
+                <div class="dropdown">
+                  <button class="dropbtn">MENU</button>
+                  <div class="dropdown-content">
+                  <a href="#">HOME</a>
+                  <a href="#">ABOUT US</a>
+                  <a href="#">CONTACT US</a>
+                  
+                  </div>
+                </div></a></li>
+        </ul>
+</div>
+
+<div id="name">One-Click</div>
+
+<div id="contact">HOME - CONTACT US</div>
+
+<div id="sub">
+ <form>
+
+    <label for="username">Username : </label>
+    <input type="username" required id="username" placeholder="abcd..."><br><br>
+    <label for="email">Email : </label>
+    <input type="email" id="email" required placeholder="abcd123@gmail.com"><br><br>
+    <label for="phone">Phone : </label>
+    <input type="phone" id="phone" placeholder="809-239-2084"><br><br>
+    <label for="country">Country : </label>
+    <select id="country">
+        <option value="Australia">Australia</option>
+        <option value="Austria">Austria</option>
+        <option value="Algeria">Algeria</option>
+        <option value="Brazil">Brazil</option>
+        <option value="canada">Canada</option>
+        <option value="france">France</option>
+        <option value="germany">Germany</option>
+        <option value="india">India</option>
+        <option value="italy">Italy</option>
+        <option value="iceland">Iceland</option>
+        <option value="ireland">Ireland</option>
+        <option value="indonesia">Indonesia</option>
+        <option value="japan">Japan</option>
+        <option value="india">india</option>
+        <option value="korea">Korea</option>
+        <option value="New Zealand">New Zealand</option>
+        <option value="russia">Russia</option>
+        <option value="turkey">Turkey</option>
+        <option value="UAE">UAE</option>
+        <option value="veitnam">Veitnam</option>   
+    </select><br><br>
+    <button id="button" onclick="notify()">submit</button>
+<button id="reset">reset</button>
+ </form>
+
+</div>
+</body>
+<script>function notify(){
+    alert("thanks for coming, we will contact you soon");
+}</script>
+</html>
