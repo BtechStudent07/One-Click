@@ -1,4 +1,3 @@
-console.log("hello");
 document.addEventListener("DOMContentLoaded", function() {
     const searchInput = document.querySelector('input[type="search"]');
     const movieBoxes = document.querySelectorAll('.main .box');
@@ -16,4 +15,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-console.log("hello");
