@@ -82,6 +82,7 @@ input[type=search]{
     margin: 0px 65px;
     display: flex;
     flex-direction: row;
+    border-radius: 4px;
     background-color: rgb(106 105 105);
 }
 
