@@ -10,6 +10,7 @@ h2{
     font-size: 28px;
     margin: 0;
     margin-top: 10px;
+    color: black;
 }
 
 #navbar{
@@ -89,7 +90,7 @@ input[type=search]{
 h3{
     margin: 40px 0px;
     font-size: 35px;
-    color: black;
+    color: white;
 }
 
 h4{
