@@ -1,6 +1,7 @@
 body{
     background-repeat: no-repeat;
     font-family: Poppins;
+    background-color: #252525;
 }
 
 
@@ -15,7 +16,7 @@ h2{
     margin: auto;
     margin-bottom: 50px;
     padding: 0px 0px 0px 15px;
-    background-color: #f1f1f1;
+    background-color: whitesmoke;
 }
 
 #navbar ul{
@@ -50,6 +51,7 @@ input[type=search]{
     font-size: 18px;
     border: none;
     cursor: pointer;
+    background-color: whitesmoke;
 }
   
 .dropdown {
@@ -79,7 +81,7 @@ input[type=search]{
     margin: 0px 65px;
     display: flex;
     flex-direction: row;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(106 105 105);
 }
 
 h3{
