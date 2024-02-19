@@ -67,12 +67,12 @@ h3{
     font-size: 25px;
 }
 
-h3 a{
+.box a{
     text-decoration: none;
     color: white;
 }
 
-h3 a:hover{
+.box a:hover{
     color: #ababab;
     text-decoration: underline;
 }
